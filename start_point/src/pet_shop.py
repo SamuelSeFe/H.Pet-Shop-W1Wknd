@@ -57,12 +57,15 @@ def customer_can_afford_pet(customer_cash, new_pet_value):
 #     increase_pets_sold(shop, get_customer_pet_count(customer))
 #     remove_customer_cash(customer, (pet["price"]))
 #     add_or_remove_cash(shop, pet["price"])
+# Code that works for 1st set
+
 
 # def sell_pet_to_customer (pet_shop, pet, customer):
 #         get_customer_pet_count(customer)
 #         get_pets_sold(pet_shop)
 #         get_customer_cash(customer)
 #         get_total_cash(pet_shop)
+# Code that works for 1nd and 3rd sets
 
 def sell_pet_to_customer (shop, pet, customer):
     if pet != None and customer["cash"] >= pet["price"]:
